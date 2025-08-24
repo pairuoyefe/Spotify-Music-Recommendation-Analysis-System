@@ -1,0 +1,69 @@
+# 🎵 Spotify Music Recommendation & Analysis System  
+
+## 📌 Project Overview  
+This project leverages **machine learning** and **data visualization** to analyze music listening behavior and recommend personalized songs.  
+
+Using Spotify-inspired data, I built a **Random Forest Classifier** to predict music genres based on user demographics, mood, and listening preferences. The results are displayed in an **interactive Streamlit dashboard** for real-time recommendations and insights.  
+
+---
+
+## 🚀 Key Features  
+- **📊 Spotify Monthly Analysis Dashboard**  
+  - Total Listeners: **520**  
+  - Premium Subscribers: **96**  
+  - Customer Satisfaction (CSAT): **95%**  
+  - Age Range & Device Usage distribution  
+  - Top Music Genres with listener counts  
+
+- **🤖 Machine Learning Model**  
+  - Algorithm: **Random Forest Classifier** (n_estimators=1000, random_state=42)  
+  - Accuracy: **73%** on test dataset  
+  - Model serialized using **pickle** for deployment  
+
+- **🎶 Song Recommendation Engine**  
+  - Input: Age Range, Listening Mood, Preferred Time  
+  - Output: Predicted Genre + Personalized Song Suggestion  
+  - Example:  
+    - Age: 20–35  
+    - Mood: Office  
+    - Time: Afternoon  
+    - ✅ Predicted Genre: *Group 0 (Melody)*  
+    - 🎵 Recommended Song: *Shoki Remix by Lil Kesh (2014)*  
+
+---
+
+## 🛠 Tech Stack  
+- **Programming:** Python (Pandas, NumPy, Scikit-learn)  
+- **Visualization:** Matplotlib, Seaborn, Streamlit  
+- **Modeling:** Random Forest Classifier  
+- **Deployment:** Streamlit App, Pickle Model Storage  
+
+---
+
+## 📷 Project Snapshots  
+### Dashboard  
+![Spotify Dashboard](./24171a9c-7ca7-457f-9545-6c567037517d.png)  
+
+### Model Training & Accuracy  
+![Model Training](./327a5f08-c793-417a-bdc3-dd2fac0d93a9.png)  
+
+### Song Recommendation Interface  
+![Recommendation App](./f41cf92e-35ce-4dba-844c-084e44c4ecf2.png)  
+
+---
+
+## 📌 How It Works  
+1. User selects **Age, Mood, and Time of Day**.  
+2. Model predicts **music genre group**.  
+3. App recommends a **non-repetitive personalized song** from the trained dataset.  
+4. Dashboard provides **monthly insights** on listeners and trends.  
+
+---
+
+## 🎯 Future Improvements  
+- Expand dataset with more genres & songs.  
+- Incorporate **deep learning models** (CNN/RNN for audio features).  
+- Add **Spotify API integration** for live data streaming.  
+- Build a **mobile-ready version** of the app.  
+
+
